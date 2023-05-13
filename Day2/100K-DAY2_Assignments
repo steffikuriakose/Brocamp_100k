@@ -1,0 +1,71 @@
+// Day_2:
+//100k coding challenge_Day2_AssiQn1
+//1.Accept a char input from the user and display it on the console
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    char c;
+    
+    printf("Enter a new character\n");
+    scanf("%c",&c);
+    printf("New character entered is %c",c);
+
+    return 0;
+}
+//Output
+//Enter a new character
+//p
+//New character entered is p
+
+// QUESTION 2:
+
+// 100k coding challenge_Day2_AssiQn2
+//2.Accept two inputs from the user and output its sum
+
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int num1;
+    float num2,result;
+    
+    printf("Enter a two numbers\n");
+    scanf("%d%f",&num1,&num2);
+    result=num1+num2;
+    printf("Result of adding %d and %f  is %f",num1,num2,result);
+
+    return 0;
+}
+//Output
+//Enter a two numbers
+//23
+//78.5
+//Result of adding 23 and 78.500000  is 101.500000
+
+// QUESTION 3:
+// 100k coding challenge_Day2_AssiQn3
+//3.Write a program to find the simple interest.
+//Program should accept 3 inputs from the user and calculate simple interest for the given inputs. Formula: SI=(P*R*n)/100)
+
+
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int principal_amount;
+    float rate,no_of_years,simple_interest;
+    
+    printf("Enter principal amount, rate,no of years\n");
+    scanf("%d%f%f",&principal_amount,&rate,&no_of_years);
+    simple_interest=(principal_amount*rate*no_of_years)/100;
+    printf("Simple Interest calculated=%f",simple_interest);
+
+    return 0;
+}
+//Output
+//Enter principal amount, rate,no of years
+//2000
+//3.5
+//4
+//Simple Interest calculated=280.000000
